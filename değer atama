@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+// İlk fonksiyon
+void birinciKod() {
+    int i = 3;
+    printf("%d\n", i);
+
+    i += 5; // i = i + 5
+    printf("%d\n", i);
+
+    i -= 5; // i = i - 5
+    printf("%d\n", i);
+
+    i *= 3; // i = i * 3
+    printf("%d\n", i);
+
+    i /= 3; // i = i / 3
+    printf("%d\n", i);
+}
+
+// İkinci fonksiyon
+void ikinciKod() {
+    int i = 4;
+    printf("%d\n", i);
+    printf("%d\n", i++); // önce mevcut değer yazılacak, sonra değer artırılacak
+    printf("%d\n", i);
+    printf("%d\n", ++i); // önce değer artırılacak, sonra yazdırma işlemi yapılacak
+    printf("%d\n", i);
+}
+
+int main() {
+    printf("Birinci kodun çıktısı:\n");
+    birinciKod();
+    
+    printf("\nİkinci kodun çıktısı:\n");
+    ikinciKod();
+
+    return 0;
+}
