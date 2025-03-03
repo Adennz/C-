@@ -19,11 +19,11 @@ int main()
     printf("Fark = %d\n", fark);
     printf("Çarpım = %d\n", carpim);
     printf("Bölüm = %f\n", bolum);      
-     /*
+    printf("Kalan veya Modülo = %d\n", mod);
+  /*
   printf("Bölüm = %2.f\n", bolum); .2f kullanarak virgülden sonra
   sadece 2 basamak gösterebiliriz   
      */
   
-    printf("Kalan veya Modülo = %d\n", mod);
-
     return 0;
+    }
